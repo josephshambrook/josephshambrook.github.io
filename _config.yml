@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://josephshambrook.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: j_se_h
 github_username:  josephshambrook
+repository: https://github.com/josephshambrook/josephshambrook-jekyll
 
 # Build settings
 markdown: kramdown
