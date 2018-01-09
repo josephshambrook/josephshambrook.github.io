@@ -1,0 +1,15 @@
+title: Joseph Shambrook
+email: josephshambrook@googlemail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Front End Web Developer in London, currently at AND Digital. 7 year career, working mainly with CSS and JavaScript.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://josephshambrook.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: j_se_h
+github_username:  josephshambrook
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
