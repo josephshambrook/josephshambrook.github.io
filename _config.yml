@@ -13,4 +13,7 @@ markdown: kramdown
 permalink: /:year/:month/:title/
 paginate: 10
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+
+sass:
+  style: compact

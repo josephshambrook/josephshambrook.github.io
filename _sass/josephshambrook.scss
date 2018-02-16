@@ -1,0 +1,144 @@
+/*
+ * JosephShambrook.scss
+ *
+ * FYI, those double 3 dashes are for Jekyll's built in SCSS compiler
+ * See here: https://jekyllrb.com/docs/assets/
+ */
+
+  // variables
+:root {
+  // material design colors
+  // 200, 500, 800
+  --color-blue: #2196F3;
+  --color-blue-light: #90CAF9;
+  --color-blue-dark: #1565C0;
+  --color-grey: #9E9E9E;
+  --color-grey-light: #EEEEEE;
+  --color-grey-dark: #424242;
+  --color-orange-light: #FFCC80;
+  --color-orange: #FF9800;
+  --color-orange-dark: #EF6C00;
+
+  // branded colors
+  --color-red-and: #FF323C;
+
+  --intro-font-size: 2.75rem;
+  --intro-height: 100vh;
+
+  --page-max-width: 100%;
+  --page-padding: 1rem;
+
+  --section-title-font-size: 1.8rem;
+  --section-height: 70vh;
+}
+
+// defaults
+body {
+  // http://markdotto.com/2018/02/07/github-system-fonts/?utm_source=CSS-Weekly&utm_campaign=Issue-302&utm_medium=email
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
+}
+
+.page--home {
+  display: grid;
+  grid-auto-rows: minmax(var(--section-height), min-content);
+  grid-template-rows:
+    minmax(var(--intro-height), min-content);
+}
+
+.page__container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--page-max-width);
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+  width: 100%;
+}
+
+.intro {
+  align-items: center;
+  background-color: var(--color-grey-light);
+  color: var(--color-grey-dark);
+  display: flex;
+
+  // hmm
+  // clip-path: polygon(0 0,100% 3vw,100% 100%,0 calc(100% - 3vw));
+  // margin-bottom: -6%;
+}
+
+.intro__highlight {
+  color: var(--color-blue-dark);
+}
+
+.intro__heading {
+  font-size: var(--intro-font-size);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+}
+
+.section--experience {
+  background-color: var(--color-grey-dark);
+  color: var(--color-grey-light);
+}
+
+.section--articles {
+  background-color: var(--color-grey-dark);
+  color: var(--color-grey-light);
+}
+
+.section--extras {
+  background-color: var(--color-grey-light);
+  color: var(--color-grey-dark);
+}
+
+.section__title {
+  font-size: var(--section-title-font-size);
+}
+
+.article {
+  margin-bottom: 2rem;
+}
+
+.article__date {
+  color: var(--color-grey);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.article__link {
+  color: var(--color-blue-light);
+  line-height: 1.5;
+}
+
+.link {
+  color: var(--color-blue);
+}
+
+.link--and,
+.link--and:visited {
+  color: var(--color-red-and);
+}
+
+@media screen and (min-width: 30rem) {
+  :root {
+    --intro-font-size: 2.75rem;
+    --intro-height: 100vh;
+    --section--title-font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  :root {
+    --intro-font-size: 3.75rem;
+    --page-padding: 2rem;
+    --page-max-width: 55rem;
+    --section-title-font-size: 3rem;
+  }
+}
