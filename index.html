@@ -5,47 +5,38 @@ masthead-title: Joseph Shambrook
 page-class: page--home
 ---
 
-<div class="page page--home">
-  <header class="intro">
-    <div class="page__container">
-      <h1 class="intro__heading">
-        <div><span class="intro__highlight">Joseph Shambrook</span></div>
-        <div>is a <span class="intro__highlight">Front End Web Developer</span></div>
-        <div>based in <span class="intro__highlight">London</span>,</div>
-        <div>currently working at <a href="https://and.digital" target="_blank" class="link link--and">AND Digital</a></div>
-      </h1>
-    </div>
-  </header>
+<header class="intro">
+  <div class="page__container">
+    <h1 class="intro__heading">
+      <div><span class="intro__highlight">Joseph Shambrook</span></div>
+      <div>is a <span class="intro__highlight">Front End Web Developer</span></div>
+      <div>based in <span class="intro__highlight">London</span>,</div>
+      <div>currently working at <a href="https://and.digital" target="_blank" class="link link--and">AND Digital</a></div>
+    </h1>
+  </div>
+</header>
 
-  <section class="section section--articles">
-    <div class="page__container">
-      <h2 class="section__title">Articles</h2>
-      <div class="articles">
-        <div class="article">
-          <div class="article__date">
-            <time>1st January 2018</time>
-          </div>
-          <a href="#" class="article__link">Article Title #1</a>
-        </div>
-        <div class="article">
-          <div class="article__date">
-            <time>1st January 2018</time>
-          </div>
-          <a href="#" class="article__link">Article Title that is also a pretty long title, but not that long</a>
-        </div>
-        <div class="article">
-          <div class="article__date">
-            <time>1st January 2018</time>
-          </div>
-          <a href="#" class="article__link">Article Title that is also quite long, but also the longest title on this page because I need to test this stuff</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="section section--articles">
+  <div class="page__container">
+    <h2 class="section__title">Articles</h2>
+    <div class="articles">
 
-  <section class="section section--extras">
-    <div class="page__container">
-      <h2 class="section__title">Also found on <a href="https://www.linkedin.com/in/josephshambrook/" class="link link--linkedin">Linkedin</a> and <a href="https://github.com/josephshambrook" class="link link--github">GitHub</a></h2>
+      {% for post in site.posts %}
+        <div class="article">
+          <div class="article__date">
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
+          <a href="{{ post.url }}" class="article__link">{{ post.title }}</a>
+        </div>
+      {% endfor %}
+
     </div>
-  </section>
-</div>
+  </div>
+</section>
+
+<section class="section section--extras">
+  <div class="page__container">
+    <h2 class="section__title">Also found on <a href="https://www.linkedin.com/in/josephshambrook/" class="link link--linkedin">Linkedin</a>, <a href="https://github.com/josephshambrook" class="link link--github">GitHub</a> and
+      <a href="https://codepen.io/josephshambrook/" class="link link--codepen">CodePen</a></h2>
+  </div>
+</section>
