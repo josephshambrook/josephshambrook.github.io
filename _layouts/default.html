@@ -4,6 +4,15 @@
 {% include head.html %}
 
 <body class="page {{ page.page-class }}">
-   {{ content }}
+  {{ content }}
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18052288-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-18052288-3');
+  </script>
 </body>
 </html>
