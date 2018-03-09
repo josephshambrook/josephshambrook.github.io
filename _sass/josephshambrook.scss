@@ -196,6 +196,11 @@ body {
   color: var(--color-red-and);
 }
 
+// helpers
+.nowrap {
+  white-space: nowrap;
+}
+
 @media screen and (min-width: 30rem) {
   :root {
     --intro-font-size: 2.75rem;
