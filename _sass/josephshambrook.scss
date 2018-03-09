@@ -37,7 +37,7 @@
 
 // defaults
 body {
-  background-color: var(--color-grey-light);
+  background-color: #FFF;
   color: var(--color-grey-dark);
 
   // thank you http://markdotto.com/2018/02/07/github-system-fonts
@@ -55,22 +55,6 @@ body {
     minmax(var(--intro-height), min-content);
 }
 
-//.page--post {
-//  display: grid;
-//  grid-template-columns:
-//    [full-start]
-//    minmax(var(--page-padding), 1fr)
-//    [main-start]
-//    minmax(0, var(--page-max-width))
-//    [main-end]
-//    minmax(var(--page-padding), 1fr)
-//    [full-end];
-//}
-//
-//.page--post > * {
-//  grid-area: main;
-//}
-
 .post__date {
   color: var(--color-grey);
   font-size: 0.9rem;
@@ -80,21 +64,21 @@ body {
 .post__content {
   $i: 0;
   $range : 1200px - 600px !default;
-  $intervals: 20 !default;
+  $intervals: 10 !default;
   $interval-size: $range / $intervals !default;
 
-  line-height: 1.3;
+  line-height: 1.4;
 
   @while $i <= $intervals {
     @media only screen and (min-width : 360 + ($i * $interval-size)) {
-      font-size: 1.2rem * (1 + (.02 * $i));
+      font-size: 1rem * (1 + (.02 * $i));
     }
     $i: $i + 1;
   }
 
   // Handle below 360px screen
   @media only screen and (max-width: 360px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -109,26 +93,35 @@ body {
 
 .header {
   background-color: #FFF;
-  border-bottom: var(--color-blue-light) 4px solid;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .header__link {
-  color: var(--color-blue-dark);
+  color: #000;
   display: inline-block;
   font-weight: 700;
-  font-size: 1.75rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
   text-decoration: none;
+
+  &:hover, &:focus {
+    color: var(--color-blue-dark);
+  }
+
+  &:active {
+    color: #000;
+  }
 }
 
 .footer {
   background-color: var(--color-grey-dark);
-  border-top: var(--color-blue-light) 4px solid;
   color: var(--color-grey-light);
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  font-size: 1rem;
+  margin-top: 6rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .footer__highlight {
