@@ -1,0 +1,38 @@
+///* ========================================================================
+//   #PROPERTIES
+//   ======================================================================== */
+// Contains any default variables declared through CSS Custom Properties
+// Brings benefits such as being available to modify directly though JS
+
+:root {
+  // COLORS
+
+  // Material Design
+  // 200, 500, 800
+  --color-blue: #2196F3;
+  --color-blue-light: #90CAF9;
+  --color-blue-dark: #1565C0;
+  --color-grey: #9E9E9E;
+  --color-grey-light: #EEEEEE;
+  --color-grey-dark: #424242;
+  --color-orange-light: #FFCC80;
+  --color-orange: #FF9800;
+  --color-orange-dark: #EF6C00;
+
+  // brand colors
+  --color-red-and: #FF323C;
+
+
+  // MISC
+
+  --intro-font-size: 2.75rem; // refactor
+  --intro-height: 100vh; // refactor
+  --intro-padding: 2rem; // refactor
+
+  --page-max-width: 100%; // refactor
+  --page-padding: 1rem; // refactor
+
+  --section-height: 70vh; // refactor
+  --section-padding: 2rem; // refactor
+  --section-title-font-size: 2rem; // refactor
+}

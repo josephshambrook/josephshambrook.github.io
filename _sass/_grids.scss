@@ -1,0 +1,6 @@
+.page--home {
+  display: grid;
+  grid-auto-rows: minmax(var(--section-height), min-content);
+  grid-template-rows:
+    minmax(var(--intro-height), min-content);
+}

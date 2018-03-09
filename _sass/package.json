@@ -1,0 +1,35 @@
+{
+  "name": "josephshambrook.com",
+  "version": "1.0.0",
+  "description": "My personal website and blog, built on Jekyll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephshambrook/josephshambrook.github.io.git"
+  },
+  "keywords": [
+    "joseph",
+    "shambrook",
+    "jekyll",
+    "portfolio",
+    "personal",
+    "work",
+    "front",
+    "end",
+    "web",
+    "developer",
+    "frontend"
+  ],
+  "author": "Joseph Shambrook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephshambrook/josephshambrook.github.io/issues"
+  },
+  "homepage": "https://github.com/josephshambrook/josephshambrook.github.io#readme",
+  "devDependencies": {
+    "inuitcss": "^6.0.0-beta.5"
+  }
+}
