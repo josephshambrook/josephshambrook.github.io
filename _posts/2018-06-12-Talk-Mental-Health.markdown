@@ -21,3 +21,7 @@ The fact is, you know someone who is suffering or has suffered from mental healt
 I'm a humble Product Developer at AND Digital. I only joined back in September 2017, so really, I've only just graduated from n00b status. I love writing code on a daily basis, and I'm definitely not an expert on mental health. Talking about mental health in a workplace hadn't factored into my work life _at all_ before AND Digital, because it didn't really seem relevant. Just write code, and deal with your personal stuff elsewhere. It didn't take long for my mind to change though, and after only a couple of discussions with my colleagues here (fashioned as a "Coffee and Chat"), I already feel more aware of my own mental health. 
 
 My key takeaway from all this, is this; if you feel like you're suffering, in any way, there _is_ tons of support out there. Despite occasional intuition, there are people that do want to listen to you, including in the workplace.
+
+If you feel like you need someone to talk to immediately, you can find help at the following:
+[Samaritans](http://www.samaritans.org/)
+[Depression UK](http://www.depressionuk.org/)
