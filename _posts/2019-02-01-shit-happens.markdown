@@ -16,3 +16,5 @@ They can happen no matter what experience level you are too. Even the smartest c
 Also, it really helps to not highlight who the perpetrator of the mistake was. It's pointless, achieves nothing, and makes the person feel more shit than they possibly were. Any mistake can usually be attributed to be a result of a problem with the team, or practices being served.
 
 So, to recap this slight ramble; mistakes happen. Learn from them. Find out what can be better, and highlight what can be done to prevent it from happening again.
+
+Want to see the slides? [Here you go](https://docs.google.com/presentation/d/1t5t0WVVI2owmHFhXauDSrEqbdmFDcb3esyTUft0wUOw/).
