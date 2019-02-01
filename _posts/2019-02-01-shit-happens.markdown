@@ -17,4 +17,4 @@ Also, it really helps to not highlight who the perpetrator of the mistake was. I
 
 So, to recap this slight ramble; mistakes happen. Learn from them. Find out what can be better, and highlight what can be done to prevent it from happening again.
 
-Want to see the slides? [Here you go](https://docs.google.com/presentation/d/1t5t0WVVI2owmHFhXauDSrEqbdmFDcb3esyTUft0wUOw/).
+Want to see the slides? [Here you go](https://docs.google.com/presentation/d/1t5t0WVVI2owmHFhXauDSrEqbdmFDcb3esyTUft0wUOw/){:target="_blank"}.
